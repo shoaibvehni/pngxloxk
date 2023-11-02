@@ -1,0 +1,75 @@
+*{
+    margin: 0px;
+    padding: 0;
+
+}
+
+#clockcontainer{
+    margin: auto;
+display: flex;
+background-color: brown;
+align-items: center;
+justify-content: center;
+    background: url(/png-clipart-clock-face-digital-clock-time-clock-angle-white-thumbnail.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 40vw;
+    height: 40vw;
+    position: relative;
+}
+#dot
+{
+    position: absolute;
+    width: 6%;
+    border-radius: 50%;
+    height: 6%;
+    z-index:1;
+    background-color: black;
+}
+
+#hour , #minute , #second{
+    position: absolute;
+    background-color: black;
+    border-radius: 10px;
+    
+}
+#hour {
+    width: 2%;
+    height: 15%;
+    left: 49.5%;
+    top: 49.5%;
+    transform-origin: 50% 0%;
+
+    opacity: 0.8;
+    }
+
+ #minute {
+    width: 1.5%;
+    height: 20%;
+    left: 49.5%;
+    top: 49.5%;
+    transform-origin: 50% 0%;
+
+background-color: aqua;
+    opacity: 0.8;
+
+}
+
+
+#second {
+    opacity: 0.8;
+    left: 49.5%;
+    top: 49.5%;
+    transform-origin: 50% 0%;
+    background-color: red;
+    width: 1%;
+    height: 25%;
+
+}
+
+
+
+
+
+
+
